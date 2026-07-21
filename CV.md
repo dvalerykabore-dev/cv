@@ -1,11 +1,11 @@
-# Curriculum Vitae - DJETEBWAOGGA
+# Curriculum Vitae - DJETEBWAOGA
 
-## D# Curriculum Vitae - DJETEBWAOGGA
+## D# Curriculum Vitae - DJETEBWAOGA
 
 ## Developpeur Full-Stack & Lead Technique
 **Specialiste Applications Web & Mobiles de Grande Echelle**
 
-- **Email:** djetebwaogga@example.com
+- **Email:** DJETEBWAOGA@example.com
 - **Telephone:** +226 70 00 00 00
 - **Localisation:** Ouagadougou, Burkina Faso
 - **Disponibilite:** Disponible pour projets & consulting
