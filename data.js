@@ -3,12 +3,12 @@
  */
 const cvData = {
       profile: {
-                name: "DJETEBWAOGGA",
+                name: "DJETEBWAOGA",
                 title: "Developpeur Full-Stack & Lead Technique",
                 subTitle: "Specialiste Applications Web & Mobiles de Grande Echelle",
                 avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600",
                 bio: "Passionne par l'architecture logicielle, les interfaces utilisateur immersives et le developpement de solutions web performantes. J'accompagne les entreprises and startups dans la concretisation de leurs projets digitaux ambitieux.",
-                email: "djetebwaogga@example.com",
+                email: "DJETEBWAOGA@example.com",
                 phone: "+226 70 00 00 00",
                 location: "Ouagadougou, Burkina Faso",
                 availability: "Disponible pour projets & consulting",
