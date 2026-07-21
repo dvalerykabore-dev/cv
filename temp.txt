@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV en ligne et portfolio professionnel de DJETEBWAOGGA - Developpeur Full-Stack & Architecte Web.">
+    <meta name="keywords" content="CV, Portfolio, Developpeur Full-Stack, Web, Mobile, React, Node.js, DJETEBWAOGGA">
+    <meta name="author" content="DJETEBWAOGGA">
+
+    <title>DJETEBWAOGGA | CV en Ligne & Portfolio</title>
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Dynamic Glow Background Orbs -->
+    <div class="bg-glow-container">
+        <div class="glow-orb glow-orb-1"></div>
+        <div class="glow-orb glow-orb-2"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">
+                <div class="logo-icon">D</div>
+                <span id="nav-logo-text">DJETEBWAOGGA</span>
+            </a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link">A Propos</a></li>
+                    <li><a href="#experience" class="nav-link">Parcours</a></li>
+                    <li><a href="#skills" class="nav-link">Competences</a></li>
+                    <li><a href="#projects" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Changer de theme">
+                    <i data-feather="sun"></i>
+                </button>
+                <button class="btn btn-secondary" id="print-cv-btn">
+                    <i data-feather="printer"></i>
+                    <span>Export PDF</span>
+                </button>
+                <a href="#contact" class="btn btn-primary">
+                    <i data-feather="send"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-tag">
+                        <span class="status-dot"></span>
+                        <span id="hero-availability">Disponible pour projets & consulting</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Bonjour, je suis <br>
+                        <span class="gradient-text" id="hero-name">DJETEBWAOGGA</span>
+                    </h1>
+
+                    <h2 class="hero-subtitle" id="hero-title-sub">Developpeur Full-Stack & Lead Technique</h2>
+
+                    <p class="hero-bio" id="hero-bio-text">
+                        Passionne par l'architecture logicielle, les interfaces utilisateur immersives et le developpement de solutions web performantes.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Explorer mes realisations</span>
+                            <i data-feather="arrow-right"></i>
+                        </a>
+                        <button class="btn btn-secondary" id="hero-pdf-btn">
+                            <i data-feather="download"></i>
+                            <span>Telecharger le CV</span>
+                        </button>
+                    </div>
+
+                    <div class="hero-stats" id="hero-stats-container">
+                        <!-- Filled by JS -->
+                    </div>
+                </div>
+                <div class="hero-avatar">
+                    <div class="avatar-card">
+                        <div class="avatar-wrapper">
+                            <img src="" alt="Avatar" class="avatar-img" id="hero-avatar-img">
+                        </div>
+                        <div class="avatar-badge">
+                            <div class="badge-icon">
+                                <i data-feather="award"></i>
+                            </div>
+                            <div class="badge-text">
+                                <span>Expertise certifiee</span>
+                                <strong>Senior Software Engineer</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Presentation</span>
+                <h2 class="section-title">A Propos de Moi</h2>
+                <p class="section-desc">Decouvrez mon parcours, mes domaines d'expertise et ce qui anime ma passion au quotidien.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="glass-card">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem;" id="about-heading">Concepteur d'Experiences Numeriques</h3>
+                    <p style="color: var(--text-muted); line-height: 1.7;" id="about-description">
+                        Fort de plus de 6 ans d'experience dans l'ecosysteme numerique...
+                    </p>
+                </div>
+                <div class="glass-card">
+                    <h3 style="font-size: 1.3rem; margin-bottom: 1rem;">Points Forts & Domaines d'Action</h3>
+                    <ul class="highlights-list" id="about-highlights">
+                        <!-- Filled by JS -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Carriere</span>
+                <h2 class="section-title">Parcours Professionnel & Formation</h2>
+                <p class="section-desc">Un apercu de mes experiences cles et de ma formation academique.</p>
+            </div>
+
+            <div class="timeline" id="timeline-container">
+                <!-- Filled by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Savoir-faire</span>
+                <h2 class="section-title">Competences Techniques</h2>
+                <p class="section-desc">Mes technologies maitrisees et niveaux d'expertise.</p>
+            </div>
+
+            <div class="skills-filter" id="skills-filter-container">
+                <!-- Filled by JS -->
+            </div>
+
+            <div class="skills-grid" id="skills-grid-container">
+                <!-- Filled by JS -->
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio / Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Realisations</span>
+                <h2 class="section-title">Projets Pro & Recents</h2>
+                <p class="section-desc">Une selection des plateformes web et mobiles que j'ai concues et deployees.</p>
+            </div>
+
+            <div class="projects-grid" id="projects-grid-container">
+                <!-- Filled by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Languages Dual Section -->
+    <section class="section" id="certifications">
+        <div class="container">
+            <div class="dual-grid">
+                <!-- Certifications -->
+                <div class="glass-card">
+                    <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1.5rem;">
+                        <div class="info-icon"><i data-feather="check-square"></i></div>
+                        <h3 style="font-size: 1.3rem;">Certifications</h3>
+                    </div>
+                    <div id="certif-list">
+                        <!-- Filled by JS -->
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div class="glass-card">
+                    <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1.5rem;">
+                        <div class="info-icon"><i data-feather="globe"></i></div>
+                        <h3 style="font-size: 1.3rem;">Langues</h3>
+                    </div>
+                    <div id="lang-list">
+                        <!-- Filled by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Collaborons</span>
+                <h2 class="section-title">Me Contacter</h2>
+                <p class="section-desc">Un projet en tete ou une opportunite de collaboration ? Ecrivez-moi !</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="glass-card">
+                    <h3 style="font-size: 1.4rem; margin-bottom: 1rem;">Informations de Contact</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 1.5rem;">N'hesitez pas a me joindre directement par email ou telephone.</p>
+
+                    <div class="contact-info-list">
+                        <div class="contact-info-item">
+                            <div class="info-icon"><i data-feather="mail"></i></div>
+                            <div>
+                                <span class="info-label">Email</span>
+                                <a href="#" class="info-value" id="contact-email">djetebwaogga@example.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="info-icon"><i data-feather="phone"></i></div>
+                            <div>
+                                <span class="info-label">Telephone / WhatsApp</span>
+                                <a href="#" class="info-value" id="contact-phone">+226 70 00 00 00</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="info-icon"><i data-feather="map-pin"></i></div>
+                            <div>
+                                <span class="info-label">Localisation</span>
+                                <span class="info-value" id="contact-location">Ouagadougou, Burkina Faso</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass-card">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label class="form-label" for="form-name">Votre Nom complet</label>
+                            <input type="text" id="form-name" class="form-input" placeholder="ex: Jean Dupont" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="form-email">Votre Email</label>
+                            <input type="email" id="form-email" class="form-input" placeholder="ex: jean.dupont@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="form-subject">Sujet du message</label>
+                            <input type="text" id="form-subject" class="form-input" placeholder="ex: Demande de devis / Opportunite" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="form-message">Votre Message</label>
+                            <textarea id="form-message" class="form-textarea" placeholder="Decrivez brievement votre besoin..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i data-feather="send"></i>
+                            <span>Envoyer le Message</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-socials" id="footer-socials">
+                <!-- Filled by JS -->
+            </div>
+            <p>&copy; <span id="footer-year">2026</span> <strong id="footer-name">DJETEBWAOGGA</strong>. Tous droits reserves.</p>
+        </div>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
