@@ -170,7 +170,7 @@ const cvData = {
               demoUrl: "#",
                 githubUrl: "#"
 }
-                             ],                                                                                                                                                                                                                                       ],
+  ],
 certifications: [
   { name: "Master en Intelligence Economique", issuer: "Universite ROBERT DE SORBON", year: "2012" },
   { name: "Certification en Trading & Analyse Financiere", issuer: "TKL TRADING SCHOOL", year: "2015" },
