@@ -148,18 +148,8 @@ const cvData = {
           tags: ["Album Musical", "Ecriture de Chansons", "Chant", "Composition"],
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
  
-}
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ]
-                                                                                                                                                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                                                                                                                                                      ]
-                                                                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                                                ]
-                                                                                                                                                                      }
-                                                                                                                                                            ]
-                                                                                                                                                    ]
-                                                                                                                                            ]
-                                                                                                                                  }
-
+},
+                                                                                                    
 {
   title: "Campagnes Marketing Digital & Acquisition",
     category: "marketing",
